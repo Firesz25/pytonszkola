@@ -1,0 +1,3 @@
+# zadanie domowe z dnia 11.02.1021
+
+Zadanie zostało rozwiązane przy użyciu dwóch funkcji. Jednej, która sprawdza czy jest reszta z dzielenia dwóch liczb a druga to kalkulator, który obsługuje podstawowe działania. Podczas wywołania funkcji kalkulatora zastosowano pomysł z pętlą while dzieki czemu można operować na wcześniejszej liczbe ,czyli można do obliczonego mnożenia dodać jakąś liczbę. Program nie uwzglądnia kolejności działań ponieważ wprowadza się do niego liczby pojedyńczo przez co nie ma też możliwości zapamiętywania wcześniejszych wyników niż ostatni.
