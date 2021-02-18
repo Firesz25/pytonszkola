@@ -1,11 +1,11 @@
 def czyjestreszta(a, b):
     reszta = a % b
     if reszta != 0:
-        print("reszta z dzielenia wynosi: ", reszta)
+        print("    reszta z dzielenia wynosi: ", reszta)
     elif reszta == 0:
-        print("liczby dzielą się bez reszty")
+        print("    liczby dzielą się bez reszty")
     else:
-        print("błąd")
+        print("    błąd")
 
 def kalkulator(znak, a, b):
     if znak == '+':
@@ -20,8 +20,9 @@ def kalkulator(znak, a, b):
         print('podałeś niepoprawny znak')     
 
 if __name__ == '__main__':
-    a = int(input("     podaj pierwszą liczbe: "))
-    b = int(input("     podaj drugą liczbe: "))
+    print()
+    a = int(input("    podaj pierwszą liczbe: "))
+    b = int(input("    podaj drugą liczbe: "))
     co_robisz = int(input("""
     jaką czynność chcesz wykonać
     sprawdzenie czy jest reszta z dzielenia: 1
@@ -32,16 +33,16 @@ if __name__ == '__main__':
     elif co_robisz == 2:
         kalk = True
         while kalk:
-            znak = input("podaj znak ( +, -, *, / ): ")
+            znak = input("     podaj znak ( +, -, *, / ): ")
             a = kalkulator(znak, a, b)
-            print("wynik to: ", a)
-            czykalk = input("jeśli chcesz zakończyć wpisz N jeścli chesz kontynuować wpisz Y: ")
+            print("    wynik to: ", a)
+            czykalk = input("     jeśli chcesz zakończyć wpisz N jeścli chesz kontynuować wpisz Y: ")
             if czykalk == 'N' or 'n':
                 kalk = False
                 break
-            b = int(input("podaj drugą liczbe: "))
+            b = int(input("    podaj drugą liczbe: "))
     else:
-        print("podałeś zła liczbe lub wystąpił błąd")
+        print("    podałeś zła liczbe lub wystąpił błąd")
 
 
 
