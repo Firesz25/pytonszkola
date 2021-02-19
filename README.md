@@ -6,8 +6,8 @@ rozwiazania do zadan z szkoly
 
  - [x] zadanie z dnia 11.02.2021
    - [x] zadanie domowe
- - [ ] zadanie z dnia 18.02.2021
-   - [ ] zadanie domowe
+ - [x] zadanie z dnia 18.02.2021
+   - [x] zadanie domowe
  - [ ] zadanie z dnia 25.02.2021
    - [ ] zadanie domowe
 
