@@ -43,7 +43,3 @@ if __name__ == '__main__':
             b = int(input("    podaj drugą liczbe: "))
     else:
         print("    podałeś zła liczbe lub wystąpił błąd")
-
-
-
-
