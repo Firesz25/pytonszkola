@@ -11,4 +11,4 @@ rozwiazania do zadan z szkoly
  - [x] zadanie z dnia 25.02.2021
    - [x] zadanie na lekcji
 
-## nazwy komitów odpowiadją dniu wrzucenia albo nazwie zadania
+## nazwy komitów odpowiadją dniu wrzucenia albo nazwie zadania datowanie foldrów jest w formacie rok-miesiąc-dzień
